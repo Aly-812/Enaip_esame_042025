@@ -13,8 +13,4 @@ class ClasseParzialmenteImplementata:
         return f"Ciao, sono {self.nome}!"
 
     def metodo_da_completare(self, valore:str):
-        """
-        Questo metodo dovrebbe aggiungere il 'valore' a un attributo interno
-        e restituire il nuovo valore.
-        """
         return self.nome + valore
