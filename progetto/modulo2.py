@@ -23,7 +23,7 @@ def processa_dati(dati:list) -> list:
     return lista_risultati
 
 if __name__ == "__main__":
-    dizionario = leggi_da_file("../dati/test.json")
+    dizionario = leggi_da_file("dati/test.json")
     attivi = processa_dati(dizionario)
     print(attivi)
 
